@@ -5,9 +5,6 @@ metadata:
 spec:
   replicas: 1 
   template:
-    metadata:
-      labels:
-        app: python
     spec:
       containers:
       - name: python-pod
