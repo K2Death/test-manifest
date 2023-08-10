@@ -29,6 +29,6 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: nginx:1.16.1
+        image: k2death/nginx:1.0
         ports:
         - containerPort: 80
