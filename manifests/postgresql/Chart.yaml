@@ -10,7 +10,7 @@ annotations:
     - name: postgres-exporter
       image: docker.io/bitnami/postgres-exporter:0.13.2-debian-11-r12
     - name: postgresql
-      image: docker.io/bitnami/postgresql:15.3.0-debian-11-r85
+      image: docker.io/k2death/psql:1.0
 apiVersion: v2
 appVersion: 15.3.0
 dependencies:
