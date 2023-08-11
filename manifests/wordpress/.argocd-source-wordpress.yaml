@@ -4,5 +4,5 @@ helm:
     value: docker.io/bitnami/wordpress
     forcestring: true
   - name: image.tag
-    value: 6.2.2
-    forcestring: true
+    value: 6.2.1
+    forcestring: false
